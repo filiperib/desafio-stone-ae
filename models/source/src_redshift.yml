@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: redshift_stone
+    database: stone_desafio
+    schema: stone_dl
+    tables:
+      - name: tbl_transacoes
+        description: Tabela com as transações realizadas por usuário

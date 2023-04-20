@@ -25,6 +25,17 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 
+<<<<<<< HEAD
+  # Define variables here 
+vars:
+  dbt_user: |
+      {{ target.name }}
+  start_date: '2010-01-01'            # configurar com a primeira data que faça sentido parao projeto
+  forecast_years: 20       # configurar com a quantidade de anos futuros em relação ao start_date acima
+
+
+=======
+>>>>>>> 81e2fcf1fc9690937315bee7801ff45603fd7558
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 
